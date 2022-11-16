@@ -1,6 +1,10 @@
 name: Actions Workflow
 
 on:
+   # repository_dispatch:
+   # see https://docs.github.com/en/rest/repos/repos#create-a-repository-dispatch-event
+   # send a POST request to https://api.github.com/repos/ *username* / *repository_name* /dispatches and genrate a authorization token on GitHub
+       # types: [build]
    # https://crontab.guru/
    # schedule:
   #  - cron: "0 12 * * 1"
