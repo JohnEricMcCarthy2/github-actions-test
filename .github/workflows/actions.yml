@@ -1,6 +1,9 @@
 name: Actions Workflow
 
 on:
+   # https://crontab.guru/
+   # schedule:
+  #  - cron: "0 12 * * 1"
    push:
    pull_request:
      types: [closed, assigned, opened, reopened]
